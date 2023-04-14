@@ -5,18 +5,18 @@
 - (the gitignore)
 - [Configuration](#configuration)
 - [Feature branch](#feature-branch)
-- Remote tracking branches, push, fetch, pull
-- Force push
-- Delete remote branch
 - [Add](#add)
 - [Modification](#modification)
 - [Stash](#stash)
 - [Stage](#stage)
 - [Commit](#commit)
+- Remote tracking branches, push, fetch, pull
 - [Reword/Amend](#rewordamend)
 - [Merge with fast-forward](#merge-with-fast-forward)
+- Delete remote branch
 - [Merge with merge commit](#merge-with-merge-commit)
 - [Rebase](#rebase)
+- Force push
 - [Interactive rebase](#interactive-rebase)
 - [Conflicts](#conflicts)
 - [Mass feature branches](#mass-feature-branches)
