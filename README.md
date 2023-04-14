@@ -16,3 +16,6 @@
 - Interactive rebase, reword, amend, squash, ...
 - Handling conflicts (merge, rebase)
 - Mass feature branches -> cherry-pick (temp branch or remote)
+- Remote tracking branches, push, fetch, pull
+- Force push
+- Delete remote branch
