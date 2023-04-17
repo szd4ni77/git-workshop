@@ -1,5 +1,7 @@
 # Git workshop
 
+https://learngitbranching.js.org/
+
 ## Topics briefly
 
 - (the gitignore)
@@ -10,13 +12,12 @@
 - [Stash](#stash)
 - [Stage](#stage)
 - [Commit](#commit)
-- Remote tracking branches, push, fetch, pull
+- [Remote tracking branches](#remote-tracking-branches)
 - [Reword/Amend](#rewordamend)
 - [Merge with fast-forward](#merge-with-fast-forward)
-- Delete remote branch
+- [Delete remote branch](#delete-remote-branch)
 - [Merge with merge commit](#merge-with-merge-commit)
 - [Rebase](#rebase)
-- Force push
 - [Interactive rebase](#interactive-rebase)
 - [Conflicts](#conflicts)
 - [Mass feature branches](#mass-feature-branches)
@@ -79,12 +80,24 @@ git log # --graph --all
 git add fileToModify
 echo "oneMoreLine" >> fileToModify
 git commit -a -m "Add new lines"
-git log
+```
+
+## Remote tracking branches
+```shell
+git remote
+git show origin
+git push --set-upstream origin developer.name/feature/thing-to-do
+git checkout developer.name/develop
+git push --set-upstream origin developer.name/develop
+git checkout -
+git fetch -p
 ```
 
 ## Reword/Amend
 ```shell
 git commit --amend
+git push -f
+git fetch -p
 ```
 
 ## Merge with fast-forward
@@ -92,6 +105,11 @@ git commit --amend
 git checkout developer.name/develop
 git merge developer.name/feature/thing-to-do
 git branch -d developer.name/feature/thing-to-do
+```
+
+## Delete remote branch
+```shell
+git push --delete origin developer.name/feature/thing-to-do
 ```
 
 ## Merge with merge commit
