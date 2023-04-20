@@ -60,6 +60,8 @@ echo "betterNewLine" > fileToModify
 ## Stash
 ```shell
 git stash # push
+git status
+cat fileToModify
 git stash show
 git stash list
 git stash pop
