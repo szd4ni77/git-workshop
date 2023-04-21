@@ -87,7 +87,7 @@ git commit -a -m "Add new lines"
 ## Remote tracking branches
 ```shell
 git remote
-git show origin
+git remote show origin
 git push --set-upstream origin developer.name/feature/thing-to-do
 git checkout developer.name/develop
 git push --set-upstream origin developer.name/develop
