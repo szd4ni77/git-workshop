@@ -65,7 +65,7 @@ cat fileToModify
 git stash show
 git stash list
 git stash pop
-git stash drop
+// git stash drop
 ```
 
 ## Stage
@@ -128,7 +128,7 @@ git commit -a -m "Add new feature"
 
 git checkout developer.name/develop
 git merge developer.name/feature/other-thing-to-do
-git merge --ff developer.name/feature/other-thing-to-do
+// git merge --ff/--no-ff/--ff-only developer.name/feature/other-thing-to-do
 git branch -d developer.name/feature/other-thing-to-do
 ```
 You can set repo level or global config to allow only fast-forward merge.
